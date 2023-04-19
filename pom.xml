@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>kr.hs.study</groupId>
-    <artifactId>spring-core-project_xml</artifactId>
+    <artifactId>SpringBasic</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,5 +13,15 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.22.RELEASE</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
